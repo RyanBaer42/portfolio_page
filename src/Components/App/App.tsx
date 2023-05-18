@@ -1,8 +1,9 @@
-import React from 'react';
 import './App.scss';
 import { Routes, Route } from 'react-router';
+
 import Nav from '../Nav/Nav';
 import Dashboard from '../Dashboard/Dashboard';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
@@ -12,11 +13,11 @@ function App() {
       <Route
           path="/"
           element={
-            <Dashboard
-             />
+            <Dashboard/>
           }
         />
       </Routes>
+      <Footer />
     </div>
   );
 }

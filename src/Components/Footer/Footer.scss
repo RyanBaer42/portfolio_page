@@ -1,0 +1,29 @@
+.Footer {
+    min-height: 50vh;
+    background: rgb(103,103,103);
+    background: linear-gradient(0deg, rgba(103,103,103,1) 0%, rgba(0,0,0,1) 82%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.connect-message {
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+}
+
+.social-icon {
+    width: 5%;
+    margin: 1%;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.social-container {
+    width: 100%;
+}
