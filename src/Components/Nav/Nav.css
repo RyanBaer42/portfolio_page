@@ -1,9 +1,11 @@
 .Nav {
-  background-color: black;
-  height: 18vh;
+  background: rgba(0, 0, 0, 0.8);
+  height: 16vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  position: fixed;
 }
 
 .home-button {
