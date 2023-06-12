@@ -2,7 +2,7 @@ import './ProjectCard.scss';
 
 interface Project {
   name: string;
-  image: string;
+  image: any;
   skills: string[];
   overView: string;
   link: string;
@@ -23,7 +23,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <div className="project-card">
       <h2>{project.name}</h2>
-      <img src={project.image} alt='Project'/>
+      <img className='project-gif' src={project.image} alt='Project'/>
       <p>{project.overView}</p>
       <div>{skills}</div>
       <a href={project.link} target="_blank" rel="noopener noreferrer">

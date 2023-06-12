@@ -1,11 +1,16 @@
 import './Nav.scss'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
     return (
         <div className='Nav'>
-            <p className='home-button'>Ryan Baer</p>
+            <Link to='/'>
+                <p className='home-button'>Ryan Baer</p>
+            </Link>
             <div className='options'>
-                <p className='nav-button'>Projects</p>
+                <Link to='/projects' className='projects-link'>
+                    <p className='nav-button'>Projects</p>
+                </Link>
                 <p className='nav-button'>Skills</p>
                 <p className='nav-button'>About Me</p>
                 <button className='contact-button'>Contact</button>

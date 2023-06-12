@@ -48,7 +48,11 @@
 .contact-button:hover {
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(255,255,255, 0.6);
-  }
+}
+
+.projects-link {
+    text-decoration: none;
+}
 
 .options{
     display: flex;
