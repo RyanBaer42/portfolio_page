@@ -15,20 +15,27 @@ interface ProjectCardProps {
 const ProjectCard = ({ project }: ProjectCardProps) => {
   const skills = project.skills.map(skill => {
     return (
-        <div>
-            <p>{skill}</p>
+        <div className='single-skill'>
+            <p className='skill-text'>{skill}</p>
         </div>
     )
   })
   return (
     <div className="project-card">
-      <h2>{project.name}</h2>
+      <div className='title-container'>
+        <h3>{project.name}</h3>
+        <a href={project.link} target="_blank" rel="noopener noreferrer">
+          <p>Project Link</p>
+        </a>
+      </div>
       <img className='project-gif' src={project.image} alt='Project'/>
-      <p>{project.overView}</p>
-      <div>{skills}</div>
-      <a href={project.link} target="_blank" rel="noopener noreferrer">
-        <p>Project Link</p>
-      </a>
+      <div className='overview-container'>
+        <p>{project.overView}</p>
+      </div>
+      <div className='skills-container'>
+        <h3 className='skills-title'>Required Skills:</h3>
+        <div className='skills'>{skills}</div>
+      </div>
     </div>
   );
 };
