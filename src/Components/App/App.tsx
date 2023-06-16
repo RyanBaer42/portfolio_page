@@ -12,24 +12,24 @@ function App() {
     <div className="App">
       <Nav />
       <Routes>
-      <Route
-        path="/"
-        element={
-          <Dashboard/>
-        }
+        <Route
+          path="/"
+          element={
+            <Dashboard/>
+          }
+          />
+        <Route
+          path='/projects'
+          element={
+            <ProjectPage />
+          }
         />
-      <Route
-        path='/projects'
-        element={
-          <ProjectPage />
-        }
-      />
-      <Route 
-        path='/skills'
-        element={
-          <SkillsPage />
-        }
-      />
+        <Route 
+          path='/skills'
+          element={
+            <SkillsPage />
+          }
+        />
       </Routes>
       <Footer />
     </div>

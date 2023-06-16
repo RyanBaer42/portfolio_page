@@ -24,8 +24,8 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
     <div className="project-card" >
       <div className='title-container'>
         <h3>{project.name}</h3>
-        <a href={project.link} target="_blank" rel="noopener noreferrer">
-          <p>Project Link</p>
+        <a href={project.link} target="_blank" rel="noopener noreferrer" className='project-link'>
+          Project Link
         </a>
       </div>
       <img className='project-gif' src={project.image} alt='Project'/>

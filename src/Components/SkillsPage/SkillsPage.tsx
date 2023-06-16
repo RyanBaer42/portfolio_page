@@ -1,4 +1,5 @@
 import './SkillsPage.scss'
+import { useEffect } from 'react'
 import JSLogo from "../../Media/JavaScript.png"
 import TSLogo from "../../Media/Typescript.png"
 import HTMLLogo from "../../Media/HTML.png"
@@ -11,6 +12,11 @@ import MochaLogo from "../../Media/Mocha.png"
 // import ChaiLogo from "../../Media/Chai.png"
 
 const SkillsPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+    })
+
     return (
         <div className='skills-page'>
             <div className='skills-container'>

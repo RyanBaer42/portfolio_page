@@ -6,6 +6,10 @@
     margin-top: 5vh;
     border-radius: 20px;
     background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 
@@ -31,7 +35,6 @@
 
 .skill-container {
     display: flex;
-    margin-left: 5%;
     width: 90%;
 }
 
@@ -51,3 +54,9 @@
 .skill-text {
     margin:0
 }
+
+.project-link {
+    display: inline-block;
+    height: 1%;
+}
+
