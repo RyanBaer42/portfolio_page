@@ -1,3 +1,19 @@
 .canyon-photo {
     width: 100%;
+    top: 10;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-10%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: white;
+    z-index: 1;
+    max-width: 40%;
+    font-size: 20px;
+    font-size: 1vw;
+    border-radius: 5px;
 }

@@ -1,1 +1,51 @@
-/*# sourceMappingURL=ProjectCard.css.map */
+.project-card {
+  height: 77vh;
+  width: 50vw;
+  background-color: aliceblue;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  border-radius: 20px;
+}
+
+.project-gif {
+  width: 90%;
+  height: 65%;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.overview-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+}
+
+.skills-container {
+  display: flex;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.skills {
+  display: flex;
+  width: 80%;
+}
+
+.skills-title {
+  margin: 0;
+}
+
+.single-skill {
+  margin-left: 5%;
+}
+
+.skill-text {
+  margin: 0;
+}/*# sourceMappingURL=ProjectCard.css.map */
