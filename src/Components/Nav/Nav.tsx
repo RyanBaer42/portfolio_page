@@ -11,7 +11,9 @@ const Nav = () => {
                 <Link to='/projects' className='projects-link'>
                     <p className='nav-button'>Projects</p>
                 </Link>
-                <p className='nav-button'>Skills</p>
+                <Link to='/skills' className='skills-link'>
+                    <p className='nav-button'>Skills</p>
+                </Link>
                 <p className='nav-button'>About Me</p>
                 <button className='contact-button'>Contact</button>
             </div>

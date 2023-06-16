@@ -5,6 +5,7 @@ import Nav from '../Nav/Nav';
 import Dashboard from '../Dashboard/Dashboard';
 import Footer from '../Footer/Footer';
 import ProjectPage from '../ProjectPage/ProjectPage';
+import SkillsPage from '../SkillsPage/SkillsPage';
 
 function App() {
   return (
@@ -21,6 +22,12 @@ function App() {
         path='/projects'
         element={
           <ProjectPage />
+        }
+      />
+      <Route 
+        path='/skills'
+        element={
+          <SkillsPage />
         }
       />
       </Routes>

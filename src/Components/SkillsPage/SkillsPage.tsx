@@ -2,8 +2,10 @@ import './SkillsPage.scss'
 
 const SkillsPage = () => {
     return (
-        <div>
-
+        <div className='skills-page'>
+            <div className='skills-container'>
+                
+            </div>
         </div>
     )
 }
