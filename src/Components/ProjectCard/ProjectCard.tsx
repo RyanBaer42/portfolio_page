@@ -21,7 +21,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
     )
   })
   return (
-    <div className="project-card">
+    <div className="project-card" >
       <div className='title-container'>
         <h3>{project.name}</h3>
         <a href={project.link} target="_blank" rel="noopener noreferrer">
@@ -32,7 +32,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       <div className='overview-container'>
         <p>{project.overView}</p>
       </div>
-      <div className='skills-container'>
+      <div className='skill-container'>
         <h3 className='skills-title'>Required Skills:</h3>
         <div className='skills'>{skills}</div>
       </div>

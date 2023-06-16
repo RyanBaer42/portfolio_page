@@ -1,5 +1,7 @@
 .skills-page {
     padding-top: 16vh;
+    padding-bottom: 5vh;
+    background-color: #222222;
 }
 
 .skills-container {
@@ -7,6 +9,8 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 5%;
     padding: 5%;
+    justify-items: center;
+    align-items: center;
 }
 
 .skill-logo {

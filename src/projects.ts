@@ -1,5 +1,6 @@
 const projects= [
     {
+        id: 1,
         name: 'Apartment Scraper',
         image:'/Gifs/apartmentscraper.gif',
         skills: ['TypeScript', 'PostgreSQL', 'React', 'Express.js', 'Cheerio.js'],
@@ -7,13 +8,15 @@ const projects= [
         link: 'https://github.com/RyanBaer42/apartment_scraper'
     },
     {
+        id: 2,
         name: 'Backcountry Bookings',
         image: '/Gifs/backcountry.gif',
-        skills: ['React', 'React Router', 'SCSS', 'TypeScript', 'AWS s3', 'Cypress.io'],
+        skills: ['React', 'React Router', 'SCSS', 'TypeScript', 'Cypress.io', 'Github Actions'],
         overView: 'This website is a comprehensive conglomerate of campsite information from around the country, designed to provide campers with an easy-to-navigate and reliable platform for finding the perfect campsite for their outdoor adventures.',
         link: 'https://github.com/Backcountry-Bookings/backcountry_fe'
     },
     {
+        id: 3,
         name: 'Fit Lit',
         image: '/Gifs/fitlit.gif',
         skills: ['JavaScript', 'Chart.js', 'CSS', 'HTML5', 'RESTful API', 'Mocha/Chai'],
@@ -21,6 +24,7 @@ const projects= [
         link: 'https://github.com/smithkirsten/fitlit-group-project'
     },
     {
+        id: 4,
         name: 'Rancid Tomatillos',
         image: '/Gifs/rancid.gif',
         skills: ['React', 'React Router', 'Lifecycle Methods', 'glide.js', 'Cypress.io'],
