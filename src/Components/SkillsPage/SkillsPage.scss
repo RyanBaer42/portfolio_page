@@ -1,0 +1,14 @@
+.skills-page {
+    padding-top: 16vh;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5%;
+    padding: 5%;
+}
+
+.skill-logo {
+    width: 20vw;
+}
