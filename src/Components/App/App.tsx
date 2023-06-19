@@ -8,6 +8,7 @@ import ProjectPage from '../ProjectPage/ProjectPage';
 import SkillsPage from '../SkillsPage/SkillsPage';
 import AboutMe from '../AboutMe/AboutMe';
 
+
 function App() {
   return (
     <div className="App">
