@@ -20,10 +20,16 @@
 }
 
 .title-container {
+  width: 90%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.project-title {
+  margin: 0;
 }
 
 .overview-container {
@@ -47,7 +53,7 @@
 }
 
 .single-skill {
-  margin-left: 5%;
+  margin-left: 4%;
 }
 
 .skill-text {

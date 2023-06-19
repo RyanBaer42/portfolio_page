@@ -23,7 +23,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <div className="project-card" >
       <div className='title-container'>
-        <h3>{project.name}</h3>
+        <h3 className='project-title'>{project.name}</h3>
         <a href={project.link} target="_blank" rel="noopener noreferrer" className='project-link'>
           Project Link
         </a>
