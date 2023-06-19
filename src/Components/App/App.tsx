@@ -6,6 +6,7 @@ import Dashboard from '../Dashboard/Dashboard';
 import Footer from '../Footer/Footer';
 import ProjectPage from '../ProjectPage/ProjectPage';
 import SkillsPage from '../SkillsPage/SkillsPage';
+import AboutMe from '../AboutMe/AboutMe';
 
 function App() {
   return (
@@ -28,6 +29,12 @@ function App() {
           path='/skills'
           element={
             <SkillsPage />
+          }
+        />
+        <Route
+          path='/aboutme'
+          element={
+            <AboutMe/>
           }
         />
       </Routes>
