@@ -1,8 +1,14 @@
 import './AboutMe.scss'
 import Iceland from '../../Media/Iceland.jpeg'
 import Guitar from '../../Media/Guitar.jpg'
+import { useEffect } from 'react'
 
 const AboutMe = () => {
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+    })
+
     return (
         <div className='aboutme-page'>
             <div className='aboutme-section'>

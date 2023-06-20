@@ -1,15 +1,16 @@
 .project-card{
-    height: 77vh;
-    width: 50vw;
-    background-color: aliceblue;
+    height: 80vh;
+    width: 55vw;
+    background-color: black;
     margin-bottom: 5vh;
     margin-top: 5vh;
     border-radius: 20px;
-    background-color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    color: aliceblue;
+    border: 1px solid aliceblue;
 }
 
 
@@ -31,6 +32,7 @@
 
 .project-title {
     margin: 0;
+    text-decoration: underline;
 }
 
 .overview-container {
@@ -63,6 +65,6 @@
 
 .project-link {
     display: inline-block;
-    height: 1%;
+    text-decoration: none;
 }
 
